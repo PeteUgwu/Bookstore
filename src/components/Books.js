@@ -1,5 +1,6 @@
 import React from 'react';
 import Bookform from './Bookform';
+import BookItem from './BookItem';
 
 const Books = () => {
   const data = [
@@ -17,17 +18,13 @@ const Books = () => {
   return (
     <div className="App">
       {
-        data.map((item) => (
-          <div key={item.index}>
-            <h2>
-              {item.title}
-            </h2>
-            <h2>
-              {item.author}
-            </h2>
-          </div>
+        data.map((book) => (
+          <BookItem
+            key={book.index}
+            book={book}
+          />
         ))
-       }
+      }
       <Bookform />
     </div>
   );
