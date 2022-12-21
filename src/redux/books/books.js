@@ -8,9 +8,14 @@ const initialState = [];
 export default function reducer(state = initialState, action) {
   switch (action.type) {
     case ADD_BOOK:
-      return state;
+      return [
+        ...state,
+        action.payload,
+      ];
     case REMOVE_BOOK:
-      return state;
+      return [
+        ...state.filter((item) => item.id !== action.id),
+      ];
     default:
       return state;
   }
