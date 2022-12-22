@@ -1,26 +1,16 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import Bookform from './Bookform';
 import BookItem from './BookItem';
 
 const Books = () => {
-  const data = [
-    {
-      title: 'Code like a novice',
-      author: 'Peter',
-      index: 1,
-    },
-    {
-      title: 'Love and hate',
-      author: 'Zintee Ihe',
-      index: 2,
-    },
-  ];
+  const books = useSelector((state) => state.books);
   return (
     <div className="App">
       {
-        data.map((book) => (
+        books.map((book) => (
           <BookItem
-            key={book.index}
+            key={book.id}
             book={book}
           />
         ))
