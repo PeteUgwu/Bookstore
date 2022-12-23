@@ -29,7 +29,7 @@ function Bookform() {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (formData.title.trim() && formData.author.trim()) {
-      const newBook = { ...formData, id: uuidv4() };
+      const newBook = { ...formData, item_id: uuidv4(), category: 'Fiction' };
       dispatch(addBook(newBook));
       setFormData({
         title: '',
