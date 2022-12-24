@@ -13,7 +13,7 @@ const Books = () => {
       {
         books.map((book) => (
           <BookItem
-            key={book.id}
+            key={book.item_id}
             book={book}
           />
         ))

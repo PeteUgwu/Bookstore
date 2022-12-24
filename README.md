@@ -25,7 +25,7 @@
 
 # 📖 Bookstore <a name="about-project"></a>
 
-> This project will lay foundations for your Bookstore website.
+> In this project, React-Redux application is connected to an existing API to create and remove books in a remote server.
 
 ## 🛠 Built With <a name="built-with"></a>
 

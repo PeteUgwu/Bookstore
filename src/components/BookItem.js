@@ -8,7 +8,8 @@ import './BookItem.css';
 
 const BookItem = ({ book }) => {
   const dispatch = useDispatch();
-  const { title, author, id } = book;
+  // eslint-disable-next-line camelcase
+  const { title, author, item_id } = book;
   return (
     <>
       <div className="book-item-container">
