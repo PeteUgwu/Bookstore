@@ -3,6 +3,9 @@ import { v4 as uuidv4 } from 'uuid';
 import { useDispatch } from 'react-redux';
 import { addBook } from '../redux/books/books';
 
+// stylesheet
+import './Bookform.css';
+
 function Bookform() {
   const [formData, setFormData] = useState({
     title: '',
@@ -39,11 +42,14 @@ function Bookform() {
   };
 
   return (
-    <div className="App">
+    <div className="form-container">
+      <h3 className="form-title">ADD NEW BOOK</h3>
       <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Add book name..." name="title" value={formData.title} onChange={setValue} />
-        <input type="text" placeholder="Add Author's name..." name="author" value={formData.author} onChange={setValue} />
-        <button type="submit">Add Book</button>
+        <div className="form-actions">
+          <input type="text" placeholder="Add book name..." name="title" value={formData.title} onChange={setValue} />
+          <input type="text" placeholder="Add Author's name..." name="author" value={formData.author} onChange={setValue} />
+          <button type="submit">Add Book</button>
+        </div>
       </form>
     </div>
   );

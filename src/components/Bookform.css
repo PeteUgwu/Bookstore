@@ -1,0 +1,33 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.form-title {
+  color: #88888f;
+  font-size: 1.6rem;
+}
+
+.form-actions input {
+  margin-right: 1rem;
+  width: 40%;
+  border: solid 1px #e8e8e8;
+  height: 2.5rem;
+  padding: 1rem;
+  border-radius: 0.1rem;
+}
+
+.form-actions input::placeholder {
+  color: #88888f;
+}
+
+.form-actions button {
+  color: #fff;
+  background-color: #0290ff;
+  border: none;
+  height: 2rem;
+  width: 16.21%;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}

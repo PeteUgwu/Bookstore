@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 2% 3%;
+}
+
+.title-div {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.title {
+  color: #0290ff;
+  cursor: pointer;
+}
+
+.menu-list {
+  display: flex;
+  gap: 2rem;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.list-item a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.list-item a:hover {
+  color: #0290ff;
+}
+
+.icon {
+  color: #0290ff;
+  font-size: 1.4rem;
+}
