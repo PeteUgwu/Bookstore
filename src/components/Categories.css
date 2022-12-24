@@ -1,0 +1,27 @@
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: #fafafa;
+    padding: 3%;
+    border-top: 1px solid #e8e8e8;
+  }
+  
+  .category-status {
+    font-size: 2rem;
+  }
+  
+  .status-btn {
+    color: #fff;
+    background-color: #0290ff;
+    border: none;
+    height: 2rem;
+    width: 15%;
+    border-radius: 0.2rem;
+    cursor: pointer;
+  }
+  
+  .status-btn:hover {
+    color: #ffe;
+    background-color: #0144dd;
+  }

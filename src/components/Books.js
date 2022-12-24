@@ -3,10 +3,13 @@ import { useSelector } from 'react-redux';
 import Bookform from './Bookform';
 import BookItem from './BookItem';
 
+// StyleSheet
+import './Books.css';
+
 const Books = () => {
   const books = useSelector((state) => state.books);
   return (
-    <div className="App">
+    <div className="books-container">
       {
         books.map((book) => (
           <BookItem
@@ -15,6 +18,7 @@ const Books = () => {
           />
         ))
       }
+      <hr />
       <Bookform />
     </div>
   );

@@ -1,5 +1,9 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
+import { FaUserAlt } from 'react-icons/fa';
+
+// stylesheet
+import './Navbar.css';
 
 const Navbar = () => (
   <div className="navbar">
@@ -20,6 +24,7 @@ const Navbar = () => (
 
       <Outlet />
     </div>
+    <FaUserAlt className="icon" />
   </div>
 );
 
