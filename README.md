@@ -25,7 +25,7 @@
 
 # 📖 Bookstore <a name="about-project"></a>
 
-> This project will lay foundations for your Bookstore website.
+> In this milestone, styling is added to the Bookstore project
 
 ## 🛠 Built With <a name="built-with"></a>
 
