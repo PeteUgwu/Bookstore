@@ -141,7 +141,7 @@ To run tests, run the following command:
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Author**
+👤 **Peter Ugwu**
 
 - GitHub: [@PeteUgwu](https://github.com/PeteUgwu)
 - Twitter: [@Petrus4Charles](https://twitter.com/Petrus4Charles)
