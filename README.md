@@ -77,8 +77,9 @@
 
 > 
 
-- **Make simple calculations.**
-- **Read a random math-related quote.**
+- **See list of books**
+- **Add book to the list**
+- **Delete book from the list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,7 +89,7 @@
 
 > 
 
-- [Live Demo Link](https://react-math-magicians.onrender.com/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
